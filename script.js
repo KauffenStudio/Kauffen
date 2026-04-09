@@ -1247,6 +1247,7 @@ contactForm.addEventListener('submit', (e) => {
   })
   .then(response => {
     if (response.ok) {
+      gtag('event', 'conversion', {'send_to': 'AW-18074242840/1LsSCPCqkpkcEJievKpD'});
       contactForm.innerHTML = `
         <div class="success-icon">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
